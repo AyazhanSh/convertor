@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 offset-md-3">
+                <h class="display-3 text-center mb-3">
+                    Конвертор величин
+                </h>
+                <form>
+                    <div class="form-group">
+                        <input id="kmInput" placeholder="Введите километры" type="number" class="form-control form-control-lg">
+                    </div>
+                </form>
+                <div id="output">
+                    <div class="card alert-warning mb-2">
+                        <div class="card-block">
+                            <h4>
+                                Метры: 
+                            </h4>
+                            <div id="metresOutput">
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card alert-primary mb-2">
+                        <div class="card-block">
+                            <h4>
+                                Сантиметры: 
+                            </h4>
+                            <div id="smOutput">
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card alert-success mb-2">
+                        <div class="card-block">
+                            <h4>
+                                Милиметры: 
+                            </h4>
+                            <div id="milimetrsOutut">
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+  
+    <script src="script.js"></script>
+</body>
+</html> 
